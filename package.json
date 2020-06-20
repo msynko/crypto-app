@@ -2,6 +2,7 @@
   "name": "crypto-app",
   "version": "0.1.0",
   "private": true,
+  "homepage": "http://msynko.github.io/crypto-app/",
   "dependencies": {
     "@vx/curve": "^0.0.153",
     "@vx/event": "^0.0.153",
@@ -19,6 +20,11 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "devDependencies": {
+    "gh-pages": "^3.0.0"
   }
 }
