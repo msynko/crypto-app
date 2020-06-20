@@ -1,0 +1,18 @@
+body {
+  margin: 0;
+  font-family: 'Roboto Mono', monospace;
+  color: black;
+}
+
+
+#root {
+  background-color: black;
+}
+
+h3 {
+  color: white;
+  text-align: center;
+  margin: 0;
+  padding: 20px 0;
+  font-weight: 400;
+}
